@@ -4,7 +4,6 @@ const db = dbDriver('bands_albums_members.sqlite3');
 
 const express = require('express');
 const app = express();
-
 app.use(express.json());
 
 // Get all bands
